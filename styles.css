@@ -7,6 +7,7 @@ html {
   background-image: url("images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
   background-color: hsl(257, 40%, 49%);
 }
 
@@ -18,6 +19,7 @@ main {
 
 .image-section {
   width: 90%;
+  margin-top: 5%;
   margin-left: auto;
 }
 .logo {
@@ -34,10 +36,51 @@ main {
   text-align: center;
 }
 
+h1,
+.text-section p,
+.links-array {
+  color: hsl(0, 0%, 100%);
+  margin: 5% auto;
+  width: 80%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.text-section p,
+.text-section button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.text-section button {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(257, 40%, 49%);
+  border: none;
+  border-radius: 36px;
+  padding: 16px;
+  width: 60%;
+  margin: 5% auto;
+}
+
+.links-array {
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+}
+
+.links-array i {
+  font-size: 1.25rem;
+}
+
 .attribution {
+  color: hsl(0, 0%, 100%);
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(300, 69%, 71%);
 }
