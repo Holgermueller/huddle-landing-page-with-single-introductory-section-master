@@ -7,6 +7,7 @@ html {
   background-image: url("images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: hsl(257, 40%, 49%);
 }
 
 main {
@@ -15,9 +16,22 @@ main {
   flex-direction: column;
 }
 
+.image-section {
+  width: 90%;
+  margin-left: auto;
+}
+.logo {
+  width: 30%;
+  padding: 10%;
+}
+
 .image-section img {
-  width: 75%;
+  width: 90%;
   margin: auto;
+}
+
+.text-section {
+  text-align: center;
 }
 
 .attribution {
